@@ -2,6 +2,8 @@
 
 An innovative application, **AutoTask Generator**, utilizes the capabilities of Next.js combined with the LangChain framework to automatically generate a task list, aiding users in achieving their specific objectives. This is achieved through the chaining of multiple language models and text analysis tools.
 
+![homepage](https://github.com/londelidess/LangChain-AutoTask-Generator/blob/main/autotask-home.png)
+
 ## Introduction
 
 LangChain is a robust framework devised specifically to chain numerous language models and text analysis tools efficiently. With its integration into the Next.js platform, the **AutoTask Generator** app empowers users to input their goals, and in response, obtain a meticulously curated list of tasks to realize that particular goal.
