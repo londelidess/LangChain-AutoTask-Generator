@@ -16,7 +16,7 @@ Furthermore, in building this app, we've extended the original tutorial by incor
 
 ## Contribution
 
-Every contribution makes a difference! Whether it's a new feature proposal, bug reporting, or general feedback, we appreciate them all. For specific issues or bugs, feel free to check the [issues page](link-to-issues-page).
+Every contribution makes a difference! Whether it's a new feature proposal, bug reporting, or general feedback, we appreciate them all. For specific issues or bugs, feel free to check at [vercel](https://lang-chain-auto-task-generator.vercel.app/).
 
 ## Credits
 
