@@ -23,3 +23,7 @@ However, in the **AutoTask Generator**, we've integrated serpAPI to overcome thi
 ## Contribution
 
 Every contribution makes a difference! Whether it's a new feature proposal, bug reporting, or general feedback, we appreciate them all. For specific issues or bugs, feel free to check at [vercel](https://lang-chain-auto-task-generator.vercel.app/).
+
+## Credits
+
+This project has been inspired and made achievable thanks to the insightful tutorial by [フルスタックチャンネル](https://www.youtube.com/watch?v=4L9gLSb4yzU&ab_channel=%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB). A special word of gratitude to [Yasuharu Kaitori](https://www.linkedin.com/in/haruyasu/) for his valuable insights and guidance.
