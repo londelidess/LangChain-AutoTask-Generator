@@ -14,10 +14,12 @@ Furthermore, in building this app, we've extended the original tutorial by incor
 2. Input your desired goal or objective.
 3. Witness the magic as you receive an automatically generated list of tasks to fulfill your aspiration.
 
+## Overcoming Data Limitations with serpAPI
+
+While language models like **GPT-3.5 Turbo** from OpenAI offer a vast repository of knowledge, they inherently possess a "knowledge cutoff", meaning they are unaware of events post their last training date. For **GPT-3.5 Turbo**, the latest known data point was in late 2021, making it unaware of any events or developments after that period.
+
+However, in the **AutoTask Generator**, we've integrated serpAPI to overcome this limitation. serpAPI allows the app to fetch real-time search engine results, thereby bridging the knowledge gap and providing users with up-to-date and relevant task suggestions based on current data. This fusion of static, vast knowledge from the language model and real-time insights from serpAPI creates a comprehensive and efficient task generation system.
+
 ## Contribution
 
 Every contribution makes a difference! Whether it's a new feature proposal, bug reporting, or general feedback, we appreciate them all. For specific issues or bugs, feel free to check at [vercel](https://lang-chain-auto-task-generator.vercel.app/).
-
-## Credits
-
-This project has been inspired and made achievable thanks to the insightful tutorial by [フルスタックチャンネル](https://www.youtube.com/watch?v=4L9gLSb4yzU&ab_channel=%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB). A special word of gratitude to [Yasuharu Kaitori](https://www.linkedin.com/in/haruyasu/) for his valuable insights and guidance.
