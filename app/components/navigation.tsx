@@ -9,7 +9,6 @@ const Navigation = () => {
       <div className="text-center">
         <Link href="/" className="font-bold text-xl cursor-pointer">
           LangChain AutoTask Generator
-
         </Link>
       </div>
     </header>
