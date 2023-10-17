@@ -21,14 +21,23 @@ export async function POST(req: NextRequest) {
     })
 
     // Prompt
+    // const chatPrompt = ChatPromptTemplate.fromPromptMessages([
+    //   SystemMessagePromptTemplate.fromTemplate(
+    //     'You are an AI task creation agent. You have the following objective: {objective}.'
+    //   ),
+    //   HumanMessagePromptTemplate.fromTemplate(
+    //     'You have the following incomplete tasks: {tasks} and have just executed the following task: {lastTask} and received the following result: {result}. Based on this, create a new task to be completed by your AI system such that your goal is more closely reached or completely reached. Return the result as a numbered list, like: #. First task #. Second task. Always start the task list with the number {nextTaskID}.'
+    //   ),
+    // ])
     const chatPrompt = ChatPromptTemplate.fromPromptMessages([
       SystemMessagePromptTemplate.fromTemplate(
-        'You are an AI task creation agent. You have the following objective: {objective}.'
+        'You are an AI task creation agent. You have the following objective: {objective}. Please answer in Japanese.'
       ),
       HumanMessagePromptTemplate.fromTemplate(
         'You have the following incomplete tasks: {tasks} and have just executed the following task: {lastTask} and received the following result: {result}. Based on this, create a new task to be completed by your AI system such that your goal is more closely reached or completely reached. Return the result as a numbered list, like: #. First task #. Second task. Always start the task list with the number {nextTaskID}.'
       ),
     ])
+
 
     // LLMChain
     const chainCreate = new LLMChain({ llm: chat, prompt: chatPrompt })
